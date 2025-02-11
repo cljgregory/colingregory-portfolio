@@ -7,6 +7,9 @@ import digoceanLogo from "../../../src/assets/digocean.svg"
 import rubyLogo from "../../../src/assets/ruby.svg"
 import javaLogo from "../../../src/assets/java.svg"
 import junitLogo from "../../../src/assets/junit.svg"
+import reactLogo from "../../../src/assets/react.svg"
+import javascriptLogo from "../../../src/assets/javascript.svg"
+
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Projects = () => {
@@ -39,7 +42,7 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="https://github.com/cljgregory/local-sights" className="text-green-400 hover:text-green-300 transition-colors my-4"> View Project</a>
+                                <a href="https://github.com/cljgregory/local-sights" className="text-green-400 hover:text-green-300 transition-colors my-4" target="_blank"> View Project</a>
                             </div>
                         </div>
 
@@ -82,7 +85,31 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-between items-center">
-                                <a href="https://github.com/cljgregory/recipe-project" className="text-green-400 hover:text-green-300 transition-colors my-4"> View Project</a>
+                                <a href="https://github.com/cljgregory/recipe-project" className="text-green-400 hover:text-green-300 transition-colors my-4" target="_blank"> View Project</a>
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+                            <h3 className="text-xl font-bold mb-2">Personal React Portfolio</h3>
+                            <p className="text-gray-400 mb-20">Well, you're on it.</p>
+                            <div className="flex gap-4">
+                                {/* {["Django", "Python", "HTML/CSS", "Digital Ocean"].map((tech, key) => ( 
+                                    <span 
+                                        key={key}
+                                        className="bg-green-500/10 text-green-500 py-1 px-3 rounded-full text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition">
+                                            {tech}
+                                    </span>
+                                
+                                ))} */}
+                                <img src={reactLogo} alt="Java logo" className="w-10 hover:-translate-y-1 transition all" />
+                                <img src={javascriptLogo} alt="JUnit5 logo" className="w-10 hover:-translate-y-1 transition all" />
+                                <img src={htmlLogo} alt="html logo" className="w-10 hover:-translate-y-1 transition all" />
+                                <img src={cssLogo} alt="css logo" className="w-10 hover:-translate-y-1 transition all" />
+                                
+                            </div>
+
+                            <div className="flex justify-between items-center">
+                                <a href="https://github.com/cljgregory/colingregory-portfolio" className="text-green-400 hover:text-green-300 transition-colors my-4" target="_blank"> View Project</a>
                             </div>
                         </div>
 
